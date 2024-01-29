@@ -22,7 +22,7 @@ app.on('ready', () => {
   PDFWindow.addSupport(win2)
 
   // win.loadURL('http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf')
-  // win.loadURL(`file://${__dirname}/helloworld.pdf`)
+  win.loadURL(`file://${__dirname}/helloworld.pdf`)
   win.loadURL('https://arxiv.org/pdf/1606.05328.pdf?asdasd=a234')
 
   // win2.loadURL('http://www.arxiv-sanity.com/')

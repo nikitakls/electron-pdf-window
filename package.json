@@ -1,6 +1,6 @@
 {
   "name": "electron-pdf-window",
-  "version": "1.0.13",
+  "version": "4.0.379",
   "description": "view PDF files in electron browser windows",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "read-chunk": "^3.1.0"
   },
   "devDependencies": {
-    "standard": "^12.0.1"
+    "standard": "^12.0.1",
+    "electron": "23.3.13"
   },
   "author": "@gellerthegyi",
   "license": "MIT"
